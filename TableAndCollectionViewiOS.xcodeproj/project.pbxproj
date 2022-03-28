@@ -14,6 +14,11 @@
 		B3DF42C927F162240017C1D3 /* TableAndCollectionViewiOS.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B3DF42C727F162240017C1D3 /* TableAndCollectionViewiOS.xcdatamodeld */; };
 		B3DF42CB27F162250017C1D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3DF42CA27F162250017C1D3 /* Assets.xcassets */; };
 		B3DF42CE27F162250017C1D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3DF42CC27F162250017C1D3 /* LaunchScreen.storyboard */; };
+		B3DF42D927F1668A0017C1D3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF42D827F1668A0017C1D3 /* SecondViewController.swift */; };
+		B3DF42DC27F16B650017C1D3 /* MyFirstCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF42DA27F16B650017C1D3 /* MyFirstCell.swift */; };
+		B3DF42DD27F16B650017C1D3 /* MyFirstCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3DF42DB27F16B650017C1D3 /* MyFirstCell.xib */; };
+		B3DF42E027F16BA70017C1D3 /* MySecondCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF42DE27F16BA70017C1D3 /* MySecondCell.swift */; };
+		B3DF42E127F16BA70017C1D3 /* MySecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3DF42DF27F16BA70017C1D3 /* MySecondCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		B3DF42CA27F162250017C1D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3DF42CD27F162250017C1D3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3DF42CF27F162250017C1D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3DF42D827F1668A0017C1D3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		B3DF42DA27F16B650017C1D3 /* MyFirstCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFirstCell.swift; sourceTree = "<group>"; };
+		B3DF42DB27F16B650017C1D3 /* MyFirstCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyFirstCell.xib; sourceTree = "<group>"; };
+		B3DF42DE27F16BA70017C1D3 /* MySecondCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MySecondCell.swift; sourceTree = "<group>"; };
+		B3DF42DF27F16BA70017C1D3 /* MySecondCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySecondCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +68,10 @@
 		B3DF42BD27F162240017C1D3 /* TableAndCollectionViewiOS */ = {
 			isa = PBXGroup;
 			children = (
+				B3DF42D527F166520017C1D3 /* View */,
 				B3DF42BE27F162240017C1D3 /* AppDelegate.swift */,
 				B3DF42C027F162240017C1D3 /* SceneDelegate.swift */,
+				B3DF42D827F1668A0017C1D3 /* SecondViewController.swift */,
 				B3DF42C227F162240017C1D3 /* ViewController.swift */,
 				B3DF42C427F162240017C1D3 /* Main.storyboard */,
 				B3DF42CA27F162250017C1D3 /* Assets.xcassets */,
@@ -68,6 +80,33 @@
 				B3DF42C727F162240017C1D3 /* TableAndCollectionViewiOS.xcdatamodeld */,
 			);
 			path = TableAndCollectionViewiOS;
+			sourceTree = "<group>";
+		};
+		B3DF42D527F166520017C1D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF42D727F1665C0017C1D3 /* Xib */,
+				B3DF42D627F166580017C1D3 /* Cell */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B3DF42D627F166580017C1D3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF42DA27F16B650017C1D3 /* MyFirstCell.swift */,
+				B3DF42DE27F16BA70017C1D3 /* MySecondCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		B3DF42D727F1665C0017C1D3 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF42DB27F16B650017C1D3 /* MyFirstCell.xib */,
+				B3DF42DF27F16BA70017C1D3 /* MySecondCell.xib */,
+			);
+			path = Xib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -130,6 +169,8 @@
 			files = (
 				B3DF42CE27F162250017C1D3 /* LaunchScreen.storyboard in Resources */,
 				B3DF42CB27F162250017C1D3 /* Assets.xcassets in Resources */,
+				B3DF42E127F16BA70017C1D3 /* MySecondCell.xib in Resources */,
+				B3DF42DD27F16B650017C1D3 /* MyFirstCell.xib in Resources */,
 				B3DF42C627F162240017C1D3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,8 +184,11 @@
 			files = (
 				B3DF42C327F162240017C1D3 /* ViewController.swift in Sources */,
 				B3DF42BF27F162240017C1D3 /* AppDelegate.swift in Sources */,
+				B3DF42DC27F16B650017C1D3 /* MyFirstCell.swift in Sources */,
 				B3DF42C127F162240017C1D3 /* SceneDelegate.swift in Sources */,
+				B3DF42D927F1668A0017C1D3 /* SecondViewController.swift in Sources */,
 				B3DF42C927F162240017C1D3 /* TableAndCollectionViewiOS.xcdatamodeld in Sources */,
+				B3DF42E027F16BA70017C1D3 /* MySecondCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
