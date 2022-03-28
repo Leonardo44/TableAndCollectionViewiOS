@@ -27,7 +27,7 @@ class ViewController: UIViewController {
     }
 }
 
-// MARK: -  UITableViewDelegate,UITableViewDataSource
+// MARK: -  UITableViewDelegate,UITableViewDataSource - iOS 12<
 extension ViewController: UITableViewDelegate,UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 10
