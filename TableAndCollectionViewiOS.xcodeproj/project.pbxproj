@@ -21,6 +21,7 @@
 		B3DF42E127F16BA70017C1D3 /* MySecondCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3DF42DF27F16BA70017C1D3 /* MySecondCell.xib */; };
 		B3DF42E427F172480017C1D3 /* MyThirdCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF42E227F172480017C1D3 /* MyThirdCell.swift */; };
 		B3DF42E527F172480017C1D3 /* MyThirdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B3DF42E327F172480017C1D3 /* MyThirdCell.xib */; };
+		B3DF42E827F173CE0017C1D3 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3DF42E727F173CE0017C1D3 /* Pokemon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		B3DF42DF27F16BA70017C1D3 /* MySecondCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MySecondCell.xib; sourceTree = "<group>"; };
 		B3DF42E227F172480017C1D3 /* MyThirdCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyThirdCell.swift; sourceTree = "<group>"; };
 		B3DF42E327F172480017C1D3 /* MyThirdCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyThirdCell.xib; sourceTree = "<group>"; };
+		B3DF42E727F173CE0017C1D3 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		B3DF42D527F166520017C1D3 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				B3DF42E627F173BE0017C1D3 /* Model */,
 				B3DF42D727F1665C0017C1D3 /* Xib */,
 				B3DF42D627F166580017C1D3 /* Cell */,
 			);
@@ -113,6 +116,14 @@
 				B3DF42E327F172480017C1D3 /* MyThirdCell.xib */,
 			);
 			path = Xib;
+			sourceTree = "<group>";
+		};
+		B3DF42E627F173BE0017C1D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B3DF42E727F173CE0017C1D3 /* Pokemon.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -194,6 +205,7 @@
 				B3DF42DC27F16B650017C1D3 /* MyFirstCell.swift in Sources */,
 				B3DF42C127F162240017C1D3 /* SceneDelegate.swift in Sources */,
 				B3DF42D927F1668A0017C1D3 /* SecondViewController.swift in Sources */,
+				B3DF42E827F173CE0017C1D3 /* Pokemon.swift in Sources */,
 				B3DF42E427F172480017C1D3 /* MyThirdCell.swift in Sources */,
 				B3DF42C927F162240017C1D3 /* TableAndCollectionViewiOS.xcdatamodeld in Sources */,
 				B3DF42E027F16BA70017C1D3 /* MySecondCell.swift in Sources */,
